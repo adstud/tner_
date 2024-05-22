@@ -70,3 +70,8 @@ def generate_html(ner_result, separator=' '):
     html += '<br><br>'
     html += html_entity
     return html
+
+import uvicorn
+
+if __name__ == "__main__":
+    uvicorn.run(app, host="0.0.0.0", port=8001)
