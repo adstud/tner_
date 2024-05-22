@@ -34,3 +34,5 @@ check_uploaded_models.py
 tweetner7
 metric_files
 get_model_list.py
+venv/
+venv/
